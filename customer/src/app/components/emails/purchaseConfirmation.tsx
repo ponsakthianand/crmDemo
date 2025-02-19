@@ -161,7 +161,7 @@ const paragraph = {
 const paragraphBold = {
   lineHeight: 1.5,
   fontWeight: 'bold',
-  color: '#008756',
+  color: '#673AB7',
   fontSize: 14,
 };
 
@@ -195,7 +195,7 @@ const sectionBorder = {
 };
 
 const sectionCenter = {
-  borderBottom: "1px solid #008756",
+  borderBottom: "1px solid #673AB7",
   width: "102px",
 };
 

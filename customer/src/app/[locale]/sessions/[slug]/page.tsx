@@ -16,18 +16,18 @@ export async function generateMetadata({ params }): Promise<Metadata> {
     console.error("Error fetching service data:", error);
   }
 
-  const description = stripHtmlTags(event.description) || "Request a service from our offerings."
+  const description = stripHtmlTags(event?.description) || "Request a service from our offerings."
 
   return {
-    title: event.title || "Book our Services",
+    title: event?.title || "Book our Services",
     description: description,
     openGraph: {
-      title: event.title || "Book our Services",
+      title: event?.title || "Book our Services",
       description: description,
       type: "website",
       images: [
         {
-          url: event.image[0] || "https://e5osher1gwoyuako.public.blob.vercel-storage.com/webapp/static/image-not-found-nKKKH17xDpgwzZmkAqDMk8fvUqa7qi.png",
+          url: event?.image[0] || "https://e5osher1gwoyuako.public.blob.vercel-storage.com/webapp/static/image-not-found-nKKKH17xDpgwzZmkAqDMk8fvUqa7qi.png",
           width: 1200,
           height: 630,
           alt: "Default Image",

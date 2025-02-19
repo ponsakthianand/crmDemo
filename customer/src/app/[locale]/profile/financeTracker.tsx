@@ -115,10 +115,10 @@ const FinanceTracker = () => {
   return (
     <div>
 
-      <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+      <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
         <div className="flex justify-between">
           <div className="flex items-center space-x-2 font-semibold text-gray-900 leading-8">
-            <span className="text-[#008756]">
+            <span className="text-[#673AB7]">
               <TbUserEdit />
             </span>
             <span className="tracking-wide">Finance Tracker</span>
@@ -131,7 +131,7 @@ const FinanceTracker = () => {
           >
             <Button
               onClick={open}
-              className="rounded-md  bg-blue-700 hover:bg-blue-800 py-2 px-4 text-sm font-medium text-white focus:outline-none data-[hover]:[#008756] data-[focus]:outline-1 data-[focus]:outline-white"
+              className="rounded-md  bg-blue-700 hover:bg-blue-800 py-2 px-4 text-sm font-medium text-white focus:outline-none data-[hover]:[#673AB7] data-[focus]:outline-1 data-[focus]:outline-white"
             >
               Add expenses
             </Button>

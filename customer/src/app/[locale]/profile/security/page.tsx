@@ -40,9 +40,9 @@ const ProfileSecurityPage = () => {
   }
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+    <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
       <div className="flex items-center space-x-2 font-semibold text-gray-900 leading-8">
-        <span className="text-[#008756]">
+        <span className="text-[#673AB7]">
           <GrSecure />
         </span>
         <span className="tracking-wide">Security & Privacy</span>

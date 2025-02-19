@@ -67,11 +67,11 @@ export default function NewChat({ buttonName }) {
     <>
       <Button
         onClick={open}
-        className="rounded-md  bg-blue-700 hover:bg-blue-800 py-2 px-4 text-sm font-medium text-white focus:outline-none data-[hover]:[#008756] data-[focus]:outline-1 data-[focus]:outline-white"
+        className="rounded-md  bg-blue-700 hover:bg-blue-800 py-2 px-4 text-sm font-medium text-white focus:outline-none data-[hover]:[#673AB7] data-[focus]:outline-1 data-[focus]:outline-white"
       >
         {buttonName ? buttonName : "New chat"}
       </Button>
-      <Dialog open={isOpen} onClose={() => {}} className="relative z-10">
+      <Dialog open={isOpen} onClose={() => { }} className="relative z-10">
         <DialogBackdrop
           transition
           className="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity data-[closed]:opacity-0 data-[enter]:duration-300 data-[leave]:duration-200 data-[enter]:ease-out data-[leave]:ease-in"

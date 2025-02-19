@@ -114,7 +114,7 @@ const config = {
         colorLinenRuffle: '#EFEAE3',
         colorViolet: '#321CA4',
         colorGreen: '#39FF14',
-        rxtGreen: '#008756',
+        rxtGreen: '#673AB7',
         rxtYellow: '#eebf2d',
         rxtBlack: '#0f0f0e',
         rxtRoyalBlue: '#34436a',

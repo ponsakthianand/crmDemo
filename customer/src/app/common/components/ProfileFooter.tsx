@@ -7,6 +7,6 @@ interface Props {
 export const ProfileFooter: FC<Props> = ({ locale }) => {
   const t = useTranslations('')
   return (
-    <div className='text-xs text-gray-600 text-center'>© Copyright {new Date().getFullYear()}, RxTn. Returnx Edumode LLP.</div>
+    <div className='text-xs text-gray-600 text-center'>© Copyright {new Date().getFullYear()}, FinTech.</div>
   )
 }

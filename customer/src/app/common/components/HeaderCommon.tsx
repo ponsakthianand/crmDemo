@@ -54,7 +54,7 @@ export const HeaderCommon: FC<Props> = ({ locale, loginCSS, signupCSS, navColor,
       <div className='global-container'>
         <div className='flex items-center justify-between gap-x-8'>
           {/* Header Logo */}
-          <Logo light={light} />
+          <div className='font-bold text-3xl'>FinTech</div>
           {/* Header Logo */}
           {/* Header Navigation */}
           <Navbar

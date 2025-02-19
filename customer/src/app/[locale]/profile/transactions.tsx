@@ -24,7 +24,7 @@ export default function Transactions(props: ProfileData) {
   return (
     <>
       <div id="default-styled-tab-content">
-        <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 border-t-4 border-t-[#008756]">
+        <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 border-t-4 border-t-[#673AB7]">
           <div className="relative">
             <div className="w-full md:w-12/12 min-h-[550px]">
               {!ordersList?.loading && orders?.length ? (

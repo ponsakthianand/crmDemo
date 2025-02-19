@@ -173,7 +173,7 @@ h5 {
   a::selection,
   h2::selection {
     background-color: #f5df9c;
-    color: #008756;
+    color: #673ab7;
   }
   body {
     @apply bg-background;

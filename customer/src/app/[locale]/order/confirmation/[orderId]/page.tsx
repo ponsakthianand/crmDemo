@@ -233,7 +233,7 @@ export default function Order({ params }) {
                 </div>
               </div>
 
-              <p className="mt-5 text-sm text-gray-500 dark:text-neutral-500">© 2025 RxTn. Returnx Edumode LLP</p>
+              <p className="mt-5 text-sm text-gray-500 dark:text-neutral-500">© 2025 FinTech</p>
             </div>
             {/* 
             <div className="mt-6 flex justify-end gap-x-3">

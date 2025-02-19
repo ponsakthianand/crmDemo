@@ -40,7 +40,7 @@ const ProfileHelpPage = () => {
 
         </div>
       </div>
-      <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+      <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
         <div className='h-[550px] overflow-y-auto'>
           <ul role="list" className="divide-y divide-gray-100">
             {getTickets?.map((ticket, index) => (

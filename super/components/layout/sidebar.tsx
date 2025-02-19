@@ -35,7 +35,7 @@ export default function Sidebar({ className, userData }: SidebarProps) {
         <Link
           href={'/dashboard'}
         >
-          {isMinimized ? <div className="transition-all duration-500"><LogoIcon className="w-12" /></div> : <div className="w-28 duration-1000 transition-all"><Logo /></div>}
+          {isMinimized ? <div className="transition-all duration-500 text-center"><LogoIcon className="w-12" /></div> : <div className="duration-1000 transition-all font-bold w-full">Super Admin</div>}
         </Link>
       </div>
       <ChevronLeft

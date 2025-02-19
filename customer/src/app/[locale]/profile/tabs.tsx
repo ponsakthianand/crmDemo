@@ -114,7 +114,7 @@ export default function ProfileTabs(props: UserData) {
                 <button
                   className={
                     selectedTab === tab?.name
-                      ? "flex p-4 items-center text-[#008756] hover:text-[#008756] dark:text-[#008756] dark:hover:text-[#008756] border-[#008756] dark:border-[#008756] border-b-2"
+                      ? "flex p-4 items-center text-[#673AB7] hover:text-[#673AB7] dark:text-[#673AB7] dark:hover:text-[#673AB7] border-[#673AB7] dark:border-[#673AB7] border-b-2"
                       : " p-4 inline-flex items-center justify-center rounded-t-lg"
                   }
                   type="button"

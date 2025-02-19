@@ -65,12 +65,12 @@ export const FooterCommon: FC<Props> = ({ locale }) => {
               <div className='grid gap-x-10 gap-y-[60px] md:grid-cols-2 lg:flex lg:grid-cols-4 lg:justify-between lg:gap-x-20'>
                 {/* Footer Widget Item */}
                 <div className='flex flex-col gap-y-6 md:max-w-xs xl:max-w-[480px]'>
-                  <Image src={`https://e5osher1gwoyuako.public.blob.vercel-storage.com/branding/logo-white-N4EVFrWvmScsBj7vkpB55QljqJOE6C.png`} alt='logo-white' width={200} height={50} />
+                  <div className='text-3xl font-bold'>FinTech</div>
                   <p>
                     Our mission is to empower individuals to achieve financial freedom and long-term success through personalized guidance and simple, effective strategies. We believe that mastering finance is about building habits, not solving complex equations.
                   </p>
                   <p>
-                    © Copyright {new Date().getFullYear()}, RxTn. Returnx Edumode LLP.
+                    © Copyright {new Date().getFullYear()}, FinTech.
                   </p>
                 </div>
                 {/* Footer Widget Item */}

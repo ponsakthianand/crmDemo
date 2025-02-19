@@ -101,9 +101,9 @@ const ProfileEditPage = () => {
   return (
     <div>
 
-      <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+      <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
         <div className="flex items-center space-x-2 font-semibold text-gray-900 leading-8">
-          <span className="text-[#008756]">
+          <span className="text-[#673AB7]">
             <TbUserEdit />
           </span>
           <span className="tracking-wide">Edit Profile</span>
@@ -114,7 +114,7 @@ const ProfileEditPage = () => {
             <form className="w-full" method="POST" onSubmit={(event) => handleSubmit(event)}>
 
               <div className='flex items-center space-x-2 mt-10 mb-4'>
-                <span className="text-[#008756]">
+                <span className="text-[#673AB7]">
                   <LuUserSquare />
                 </span>
                 <span className="tracking-wide">Personal Information</span>

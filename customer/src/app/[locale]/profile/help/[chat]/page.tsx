@@ -127,7 +127,7 @@ export default function ChatView({ params }) {
 
       </div>
     </div>
-    <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+    <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
       <div className='mb-7 h-[450px] overflow-y-auto'>
         <ul className="space-y-5">
           {

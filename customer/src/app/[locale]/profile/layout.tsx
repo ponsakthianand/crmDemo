@@ -43,7 +43,7 @@ function ProfileRootLayout({
         <div className="container mx-auto p-5">
           <div className="md:flex no-wrap md:-mx-2 ">
             <div className="w-full md:w-3/12 md:mx-2">
-              <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+              <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
 
                 <div className="image overflow-hidden mx-auto flex justify-center">
                   <div className="relative inline-flex items-center justify-center w-28 h-28 overflow-hidden bg-gray-100 rounded-full dark:bg-gray-600">
@@ -70,7 +70,7 @@ function ProfileRootLayout({
                     </div>
                     <h5 className="mb-1 text-xl font-medium text-gray-900 dark:text-white">{currentUser?.partner_name}</h5>
                     <div className="flex mt-4 md:mt-6">
-                      <Link href={`tel:${currentUser?.partner_phone}`} className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-[#008756] rounded-lg hover:bg-[#008756] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#008756] dark:hover:bg-[#008756] mr-1 dark:focus:ring-[#008756]">Call</Link>
+                      <Link href={`tel:${currentUser?.partner_phone}`} className="inline-flex items-center px-4 py-2 text-sm font-medium text-center text-white bg-[#673AB7] rounded-lg hover:bg-[#673AB7] focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-[#673AB7] dark:hover:bg-[#673AB7] mr-1 dark:focus:ring-[#673AB7]">Call</Link>
 
                       <NewChat buttonName={'Message'} />
                     </div>

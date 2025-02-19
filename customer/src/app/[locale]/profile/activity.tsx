@@ -9,7 +9,7 @@ interface ProfileData {
 export default function Activity(props: ProfileData) {
 
   return (
-    <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#008756]">
+    <div className="bg-white border border-gray-200 rounded-lg dark:bg-gray-800 dark:border-gray-700 p-5 border-t-4 border-t-[#673AB7]">
       {/* <div className="w-full md:w-12/12">
         <div className="ps-2 my-2 first:mt-0">
           <h3 className="text-xs font-medium uppercase text-gray-500 dark:text-neutral-400">
