@@ -1,0 +1,73 @@
+import { z } from 'zod';
+
+// We're keeping a simple non-relational schema here.
+// IRL, you will have a schema for your data models.
+export const LastMessage = z.object({
+  role: z.string().nullish(),
+  name: z.string().nullish(),
+  id: z.string().nullish(),
+  message: z.string().nullish(),
+  created_time: z.string().nullish(),
+});
+
+export const taskSchema = z.object({
+  _id: z.string().optional().default(''),
+  full_Name: z.string().optional().default(''),
+  mobile: z.string().optional().default(''),
+  email: z.string().optional().default(''),
+  dob: z.string().optional().default(''),
+  age: z.union([z.string(), z.number()]).optional().default(''),
+  gender: z.string().optional().default(''),
+  annualIncome: z.string().optional().default(''),
+  employmentType: z.string().optional().default(''),
+  street: z.string().optional().default(''),
+  zipCode: z.string().optional().default(''),
+  city: z.string().optional().default(''),
+  state: z.string().optional().default(''),
+  country: z.string().optional().default(''),
+  photo: z.any().nullable().optional(),
+  category: z.string().optional().default(''),
+  sub_category: z.string().optional().default(''),
+  lead_from: z.string().optional().default(''),
+  review_status: z.string().optional().default('pending'),
+  converted: z.boolean().optional().default(false),
+  note: z.array(z.string()).optional().default([]),
+  referral_id: z.string().optional().default(''),
+  referral_name: z.string().optional().default(''),
+  created_by_id: z.string().optional().default(''),
+  created_by_name: z.string().optional().default(''),
+  created_at: z.date().default(() => new Date()),
+  updated_at: z.date().default(() => new Date()),
+  updated_by_id: z.string().optional().default(''),
+  updated_by_name: z.string().optional().default(''),
+  updated_history: z.array(z.any()).optional().default([]),
+  panNumber: z.string().optional().default(''),
+  aadharNumber: z.string().optional().default(''),
+  filingType: z.array(z.string()).optional().default([]),
+  loanType: z.string().optional().default(''),
+  delayInPayment: z.boolean().optional().default(false),
+  insuranceType: z.array(z.string()).optional().default([]),
+  isKnownCoverage: z.boolean().optional().default(false),
+  healthCondition: z.string().optional().default(''),
+  differentlyAbled: z.boolean().optional().default(false),
+  lifeStyleHabits: z.string().optional().default(''),
+  isIncomeTaxFiled: z.boolean().optional().default(false),
+  residentialStatus: z.string().optional().default(''),
+  status: z.string().optional().default('open'),
+  callSchedule: z.string().optional().default(''),
+  callScheduleHistory: z.array(z.any()).optional().default([]),
+  comment: z.string().optional().default(''),
+  commentHistory: z.array(z.any()).optional().default([]),
+  isCustomer: z.boolean().optional().default(false),
+  customer_id: z.string().optional().default(''),
+  customer_name: z.string().optional().default(''),
+});
+// export const taskSchema = z.object({
+//   id: z.string().nullish(),
+//   title: z.string().nullish(),
+//   status: z.string().nullish(),
+//   label: z.string().nullish(),
+//   priority: z.string().nullish(),
+// })
+
+export type Task = z.infer<typeof taskSchema>;

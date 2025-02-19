@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WebSocket Chat with Client ID and Chat ID</title>
+    </head>
+    <body>
+        <h1>WebSocket Chat</h1>
+        <form id="connectionForm">
+            <label for="clientId">Client ID:</label>
+            <input type="text" id="clientId" placeholder="Enter your Client ID" required/>
+            <br>
+            <label for="chatId">Chat ID:</label>
+            <input type="text" id="chatId" placeholder="Enter the Chat ID" required/>
+            <br>
+            <button type="submit">Connect</button>
+        </form>
+
+        <div id="chat" style="display:none;">
+            <h2>Chat Room</h2>
+            <form action="" onsubmit="sendMessage(event)">
+                <input type="text" id="messageText" autocomplete="off" placeholder="Type a message"/>
+                <button>Send</button>
+            </form>
+            <ul id="messages"></ul>
+        </div>
+
+        <script>
+            let ws;
+
+            document.getElementById('connectionForm').addEventListener('submit', function(event) {
+                event.preventDefault();
+                const clientId = document.getElementById('clientId').value;
+                const chatId = document.getElementById('chatId').value;
+
+                // Open WebSocket connection using client_id and chat_id
+                ws = new WebSocket(`wss://rxtn.onrender.com/ws/${chatId}/${clientId}`);
+
+                ws.onopen = function() {
+                    document.getElementById('connectionForm').style.display = 'none';
+                    document.getElementById('chat').style.display = 'block';
+                };
+
+                ws.onmessage = function(event) {
+                    const messages = document.getElementById('messages');
+                    const message = document.createElement('li');
+                    const content = document.createTextNode(event.data);
+                    message.appendChild(content);
+                    messages.appendChild(message);
+                };
+            });
+
+            function sendMessage(event) {
+                const input = document.getElementById("messageText");
+                ws.send(input.value);
+                input.value = '';
+                event.preventDefault();
+            }
+        </script>
+    </body>
+</html>

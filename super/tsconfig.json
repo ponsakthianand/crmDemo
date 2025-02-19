@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    // "noImplicitAny": false,
+    "skipLibCheck": true,
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "bundler",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/dashboard/partners/page.tsx", "app/dashboard/old-tickets/[chat]/resolveOrOpenChat.jsx", "app/dashboard/old-tickets/[chat]/page.jsx", "app/api/events/[eventid]/route.js", "app/api/events/route.js", "app/dashboard/events-old/page.jsx", "app/api/customers/[customerId]/ft/route.js", "app/api/customers/[customerId]/mf/route.js", "modules.d.ts ", "app/dashboard/customers/[customerId]/notes/editor.js", "app/api/socket/socket.js", "app/api/socket/route.js", "components/NotificationCount.js", "app/api/todos/route.js", "app/dashboard/leads/new-leads.js", "app/dashboard/leads/new-leads.jsx", "app/dashboard/leads/formScema.js", "app/dashboard/leads/edit-leads.tsx", "components/ui/datetime-picker.tsx", "app/api/users/register/route.js", "app/lib/email.ts", "components/emails/signup-admin.tsx", "app/dashboard/courses/page.jsx", "app/api/partners/register/email.js", "app/api/customers/[customerId]/mf/[mfId]/route.js"],
+  "exclude": ["node_modules"]
+}

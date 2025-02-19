@@ -1,0 +1,11 @@
+[data-placeholder]:empty:before {
+  content: attr(data-placeholder);
+  color: #555;
+}
+
+[data-placeholder]:empty:focus:before {
+  content: '';
+}
+
+.ce-block__content {
+}

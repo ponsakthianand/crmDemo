@@ -1,0 +1,44 @@
+[
+  {
+    "icon_black": "assets/img/th-1/service-icon-black-1.svg",
+    "link": "/services/nri-financial-services",
+    "icon_orange": "assets/img/th-1/service-icon-orange-1.svg",
+    "title": "NRI Wealth Management",
+    "text": "We specialize in providing Non-Resident Indians (NRIs) with expert financial management, including investment planning, tax compliance, and repatriation services. Our goal is to simplify the complexities of managing finances from abroad, ensuring that NRIs can make the most of their opportunities."
+  },
+  {
+    "icon_black": "assets/img/th-1/service-icon-black-2.svg",
+    "link": "/services/portfolio-analysis-and-review",
+    "icon_orange": "assets/img/th-1/service-icon-orange-2.svg",
+    "title": "Portfolio Management",
+    "text": "We offer thorough analysis and regular reviews of your investment portfolio. Our approach ensures that your investments are aligned with your goals and risk tolerance, and we provide actionable insights to optimize your portfolio's performance."
+  },
+  {
+    "icon_black": "assets/img/th-1/service-icon-black-3.svg",
+    "link": "/services/unlisted-shares-private-placements",
+    "icon_orange": "assets/img/th-1/service-icon-orange-3.svg",
+    "title": "Private Equity",
+    "text": "Gain access to exclusive investment opportunities in unlisted shares and private placements. We provide detailed research and guidance to help you navigate these high-potential, but often complex, markets."
+  },
+  {
+    "icon_black": "assets/img/th-1/service-icon-black-4.svg",
+    "link": "/services/mutual-funds-share-market-ipo",
+    "icon_orange": "assets/img/th-1/service-icon-orange-4.svg",
+    "title": "Investments",
+    "text": "Our team offers expert guidance on mutual fund investments, stock market trading, and participation in IPOs. We work with you to build a diversified investment strategy that maximizes returns while managing risk."
+  },
+  {
+    "icon_black": "assets/img/th-1/service-icon-black-4.svg",
+    "link": "/services/risk-management-insurance-loan-advisory-optimal-solutions",
+    "icon_orange": "assets/img/th-1/service-icon-orange-4.svg",
+    "title": "Financial Advisory",
+    "text": "Protect your financial future with our comprehensive risk management services. We help you choose the right insurance products, provide loan advisory services, and create customized solutions to meet your financial needs."
+  },
+  {
+    "icon_black": "assets/img/th-1/service-icon-black-4.svg",
+    "link": "/services/financial-education-assessments-consulting-financial-planning-tax-planning",
+    "icon_orange": "assets/img/th-1/service-icon-orange-4.svg",
+    "title": "Wealth Management",
+    "text": "We believe that financial literacy is the foundation of financial success. Our educational programs, assessments, and consulting services are designed to enhance your understanding of finance and empower you to make informed decisions. Our financial planning services are tailored to your unique circumstances, ensuring that you have a clear strategy for achieving your goals. Additionally, our tax planning services help you minimize tax liabilities and optimize your financial outcomes."
+  }
+]
