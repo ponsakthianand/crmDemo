@@ -25,15 +25,15 @@ export default function AuthenticationPage() {
       </Link>
       <div className="relative hidden h-full flex-col bg-muted p-10 text-white lg:flex dark:border-r">
         <div className={`absolute inset-0 bg-login_hero`} />
-        <div className="relative z-20 flex items-center text-lg font-medium w-28">
-          <Logo />
+        <div className="relative z-20 flex items-center text-lg font-bold">
+          FinTech Admin
         </div>
         <div className="relative z-20 mt-auto">
           <blockquote className="space-y-2">
-            <p className="text-lg">
+            {/* <p className="text-lg">
               &ldquo;Let's introduce the financial habits to the masses.&rdquo;
             </p>
-            <footer className="text-sm">PC Balasingh - Founder RxT</footer>
+            <footer className="text-sm">PC Balasingh - Founder RxT</footer> */}
           </blockquote>
         </div>
       </div>
